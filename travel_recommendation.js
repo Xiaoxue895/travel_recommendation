@@ -36,7 +36,7 @@ function displayResults(results) {
         resultDiv.className = 'result';
         resultDiv.innerHTML = `
             <h3>${result.name}</h3>
-            <img src="${result.imageUrl}" alt="${result.name}">
+            <img src="${result.imageUrl}" alt="${result.name}" style="width: 200px; height: auto;">
             <p>${result.description}</p>
         `;
         resultsContainer.appendChild(resultDiv);
